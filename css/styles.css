@@ -161,23 +161,23 @@ text-decoration-line: underline;
     padding: 0 15px;
     margin: 0 auto;
 }
-.header__flex{
+.head__flex{
     padding: 24px 0;
     display: flex;
     justify-content: space-between;
 
 }
-header nav {
+head nav {
     display: flex;
     align-items: center;
 }
 
-header nav ul{
+head nav ul{
     display: flex;
     align-items: center;
 }
 
-header address ul{
+head address ul{
     display: flex;
 }
 .logo{
@@ -195,10 +195,10 @@ margin-right: 76px;
     color: var(--navyBlue);
 
 }
-.header-nav__li{
+.head-nav__li{
     margin-right: 40px;
 }
-.header-nav__link{
+.head-nav__link{
     font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -208,20 +208,20 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: var(--navyBlue);
 }
-.header-nav__link:hover{
+.head-nav__link:hover{
     color: var(--ocean);
 }
-.header-nav__li:last-child{
+.head-nav__li:last-child{
 margin-right: 0;
 }
 
-.header-info__li{
+.head-info__li{
 margin-right: 40px;
 }
-.header-info__li:last-child{
+.head-info__li:last-child{
     margin-right: 0;
 }
-.header-info__link{
+.head-info__link{
 color: var(--slate);
 font-family: Roboto;
 font-size: 16px;
@@ -231,7 +231,7 @@ line-height: 150%; /* 150% */
 letter-spacing: 0.32px;
 transition: all .4s;
 }
-.header-info__link:hover{
+.head-info__link:hover{
     color: var(--ocean);
 }
 .advertisement{
@@ -252,6 +252,7 @@ transition: all .4s;
     line-height: 107.143%;
     letter-spacing: 1.12px;
     margin-bottom: 48px;
+    text-align: center;
 }
 .advertisement__btn{
     padding: 16px 32px;
