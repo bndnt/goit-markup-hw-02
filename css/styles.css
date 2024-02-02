@@ -167,17 +167,17 @@ text-decoration-line: underline;
     justify-content: space-between;
 
 }
-head nav {
+.head nav {
     display: flex;
     align-items: center;
 }
 
-head nav ul{
+.head nav ul{
     display: flex;
     align-items: center;
 }
 
-head address ul{
+.head address ul{
     display: flex;
 }
 .logo{
