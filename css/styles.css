@@ -180,7 +180,7 @@ text-decoration-line: underline;
 .head address ul{
     display: flex;
 }
-.logo{
+.head_nav a{
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
