@@ -164,6 +164,8 @@ text-decoration-line: underline;
 .header__flex{
     padding: 24px 0;
     display: flex;
+    justify-content: space-between;
+
 }
 header nav {
     display: flex;
@@ -177,4 +179,61 @@ header nav ul{
 
 header address ul{
     display: flex;
+}
+.logo{
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height:  1.17%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+margin-right: 76px;
+}
+.logo_span{
+    color: var(--navyBlue);
+
+}
+.header-nav__li{
+    margin-right: 40px;
+}
+.header-nav__link{
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:  150% ;
+letter-spacing: 0.32px;
+transition: all .4s;
+color: var(--navyBlue);
+}
+.header-nav__link:hover{
+    color: var(--ocean);
+}
+.header-nav__li:last-child{
+margin-right: 0;
+}
+
+.header-info__li{
+margin-right: 40px;
+}
+.header-info__li:last-child{
+    margin-right: 0;
+}
+.header-info__link{
+color: var(--slate);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 150% */
+letter-spacing: 0.32px;
+transition: all .4s;
+}
+.header-info__link:hover{
+    color: var(--ocean);
+}
+.advertisement{
+    
 }
