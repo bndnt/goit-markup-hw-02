@@ -26,7 +26,7 @@ body{
     background-color:#ffffff;
 }
 * {
-    padding: 0px;
+   
     margin: 0px;
     border: none;
 }
@@ -102,7 +102,7 @@ button:focus, button:active {
 }
 
 button::-moz-focus-inner {
-    padding: 0;
+    
     border: 0;
 }
 
@@ -156,13 +156,12 @@ letter-spacing: 0.48px;
 text-decoration-line: underline;
 }
 .container{
-    width: 100%;
-    max-width: 1158px;
-    padding: 0 15px;
+    
+   
     margin: 0 auto;
 }
 .head__flex{
-    padding: 24px 0;
+    
     
 
 }
@@ -183,7 +182,7 @@ text-decoration-line: underline;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height:  1.17%;
+    line-height:  1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -207,7 +206,10 @@ transition: all .4s;
 color: #2e2f42;
 }
 .head-nav__link:hover{
-    color: #404BBF;
+    color: #404bbf;
+}
+.head-nav__link:focus{
+    color: #404bbf;
 }
 .head-nav__li:last-child{
 margin-right: 0;
@@ -230,7 +232,10 @@ letter-spacing: 0.32px;
 transition: all .4s;
 }
 .head-info__link:hover{
-    color: #404BBF;
+    color: #404bbf;
+}
+.head-info__link{
+    color: #404bbf;
 }
 .advertisement{
     
@@ -238,8 +243,6 @@ transition: all .4s;
     
 }
 .advertisement__title{
-
-    
     color: #fff;
     font-size: 56px;
     font-style: normal;
@@ -250,10 +253,7 @@ transition: all .4s;
     text-align: center;
 }
 .advertisement__btn{
-    
     background-color: #4D5AE5;
-    
-    
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -265,6 +265,10 @@ transition: all .4s;
 .advertisement__btn:hover{
     background-color: #404BBF;
 }
+
+.advertisement__btn:focus{
+    background-color: #404BBF;
+}
 .methody{
     
 }
@@ -272,8 +276,7 @@ transition: all .4s;
     
 }
 .methody__block{
-    margin-right: 24px;
-    
+ margin-right: 24px;    
 }
 .methody__main-title{
     
@@ -289,6 +292,10 @@ font-weight: 500;
 line-height: 120%;
 letter-spacing: 0.4px;
 margin-bottom: 8px;
+color: #2e2f42;
+}
+.methody__text{
+    letter-spacing: 0.02em
 }
 .team{
     background-color: #f4f4fd;
@@ -297,15 +304,21 @@ margin-bottom: 8px;
 .team__title{
     margin: 0 0 72px;
     text-align: center;
-    columns: #2e2e2e;
+    color: #2e2f42;
 }
 .team__flex{
     
 }
 .team__block{
     margin-right: 24px;
-    
+    background-color: #FFFFFF
 }
 .team__block:last-child{
     margin-right: 0;
+}
+.team__name{
+    color: #2e2f42;
+}
+.team__occupation{
+    letter-spacing: 0.02em;
 }
