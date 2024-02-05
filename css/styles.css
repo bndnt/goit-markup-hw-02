@@ -1,18 +1,4 @@
-:root{
-    --iris:#4D5AE5;
-    --ocean: #404BBF;
-    --navyBlue: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --lightSlate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --navyBlueModal: #2e2f42;
-    --grey: #2e2f42;
-    --white: #fff;
-    --dairy: #fcfcfc;
 
-}
 body{
     
     margin: 0;
@@ -210,6 +196,13 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.head-nav__link:hover {
+    color: #404bbf;
+}
+.head-nav__link:focus {
+    color: #404bbf;
+}
+
 .head-nav__li:last-child{
 margin-right: 0;
 }
@@ -319,5 +312,12 @@ color: #2e2f42;
     color: #2e2f42;
 }
 .team__occupation{
+    letter-spacing: 0.02em;
+}
+.footer{
+    background-color: #2e2f42;
+}
+.footer__info{
+    color: #F4F4FD;
     letter-spacing: 0.02em;
 }
