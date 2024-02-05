@@ -179,7 +179,7 @@ text-decoration-line: underline;
 }
 
 .logo{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -197,7 +197,7 @@ text-decoration-line: underline;
     margin-right: 40px;
 }
 .head-nav__link{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -221,7 +221,7 @@ margin-right: 40px;
 }
 .head-info__link{
 color: #434455;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -282,7 +282,7 @@ transition: all .4s;
     margin-right: 0;
 }
 .methody__title{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
