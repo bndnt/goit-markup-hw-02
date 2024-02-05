@@ -202,12 +202,14 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: #2e2f42;
 }
-.head-nav__link:hover{
+
+.head-nav__li:hover .head-nav__link{
     color: #404bbf;
 }
-.head-nav__link:focus{
+.head-nav__li:focus .head-nav__link{
     color: #404bbf;
 }
+
 .head-nav__li:last-child{
 margin-right: 0;
 }
@@ -219,7 +221,6 @@ margin-right: 40px;
     margin-right: 0;
 }
 .head-info__link{
-color: #434455;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
@@ -227,6 +228,7 @@ font-weight: 400;
 line-height: 150%; /* 150% */
 letter-spacing: 0.32px;
 transition: all .4s;
+color: #434455;
 }
 .head-info__link:hover{
     color: #404bbf;
