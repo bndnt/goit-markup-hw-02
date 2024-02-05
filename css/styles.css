@@ -14,7 +14,7 @@
 
 }
 body{
-    padding: 0;
+    
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -34,7 +34,7 @@ body{
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    
 }
 
 /* Links */
@@ -50,7 +50,8 @@ a:hover  {
 /* Common */
 
 aside, nav, footer, header, section, main {
-    display: block;
+   
+
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -67,8 +68,7 @@ img {
 }
 
 img, svg {
-    max-width: 100%;
-    height: auto;
+    
 }
 
 address {
@@ -85,11 +85,11 @@ input, textarea, button, select {
 }
 
 input::-ms-clear {
-    display: none;
+    
 }
 
 button, input[type="submit"] {
-    display: inline-block;
+    
     box-shadow: none;
     background-color: transparent;
     background: none;
@@ -111,7 +111,7 @@ label {
 }
 
 legend {
-    display: block;
+    
 }
 /* font-family: 'Raleway', sans-serif;
 
@@ -163,22 +163,19 @@ text-decoration-line: underline;
 }
 .head__flex{
     padding: 24px 0;
-    display: flex;
-    justify-content: space-between;
+    
 
 }
 .head nav {
-    display: flex;
-    align-items: center;
+    
 }
 
 .head nav ul{
-    display: flex;
-    align-items: center;
+    
 }
 
 .head address ul{
-    display: flex;
+    
 }
 .head_nav a{
 font-family: Raleway;
@@ -235,16 +232,13 @@ transition: all .4s;
     color: var(--ocean);
 }
 .advertisement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
     background-color: var(--navyBlue);
-    padding: 188px 0;
+    
 }
 .advertisement__title{
-    width: 100%;
-    max-width: 496px;
+
+    
     color: var(--white);
     font-size: 56px;
     font-style: normal;
@@ -255,10 +249,10 @@ transition: all .4s;
     text-align: center;
 }
 .advertisement__btn{
-    padding: 16px 32px;
+    
     background-color: var(--iris);
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+    
     color: var(--white);
     font-size: 16px;
     font-style: normal;
@@ -271,18 +265,17 @@ transition: all .4s;
     background-color: var(--ocean);
 }
 .methody{
-    padding: 120px 0;
+    
 }
 .methody__flex{
-    display: flex;
+    
 }
 .methody__block{
     margin-right: 24px;
-    width: 100%;
-    max-width: 264px;
+    
 }
 .methody__main-title{
-    display: none;
+    
 }
 .methody__block:last-child{
     margin-right: 0;
@@ -298,7 +291,7 @@ margin-bottom: 8px;
 }
 .team{
     background-color: var(--cloud);
-    padding: 120px 0;
+    
 }
 .team__title{
     margin: 0 0 72px;
@@ -306,12 +299,11 @@ margin-bottom: 8px;
     columns: var(--navyBlue);
 }
 .team__flex{
-    display: flex;
+    
 }
 .team__block{
     margin-right: 24px;
-    width: 100%;
-    max-width: 264px;
+    
 }
 .team__block:last-child{
     margin-right: 0;
