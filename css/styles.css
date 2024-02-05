@@ -18,8 +18,8 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background-color: var(--dairy);
-    color: var(--slate);
+    background-color: fcfcfc;
+    color: #434455;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
@@ -177,19 +177,20 @@ text-decoration-line: underline;
 .head address ul{
     
 }
-.head_nav a{
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height:  1.17%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--iris);
-margin-right: 76px;
+
+.logo{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:  1.17%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
 }
 .logo_span{
-    color: var(--navyBlue);
+    color: #2e2f42;
 
 }
 .head-nav__li{
@@ -203,10 +204,10 @@ font-weight: 500;
 line-height:  150% ;
 letter-spacing: 0.32px;
 transition: all .4s;
-color: var(--navyBlue);
+color: #2e2f42;
 }
 .head-nav__link:hover{
-    color: var(--ocean);
+    color: #404BBF;
 }
 .head-nav__li:last-child{
 margin-right: 0;
@@ -219,7 +220,7 @@ margin-right: 40px;
     margin-right: 0;
 }
 .head-info__link{
-color: var(--slate);
+color: #434455;
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -229,17 +230,17 @@ letter-spacing: 0.32px;
 transition: all .4s;
 }
 .head-info__link:hover{
-    color: var(--ocean);
+    color: #404BBF;
 }
 .advertisement{
     
-    background-color: var(--navyBlue);
+    background-color: #2e2f42;
     
 }
 .advertisement__title{
 
     
-    color: var(--white);
+    color: #fff;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -250,10 +251,10 @@ transition: all .4s;
 }
 .advertisement__btn{
     
-    background-color: var(--iris);
+    background-color: #4D5AE5;
     
     
-    color: var(--white);
+    color: #fff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -262,7 +263,7 @@ transition: all .4s;
     transition: all .4s;
 }
 .advertisement__btn:hover{
-    background-color: var(--ocean);
+    background-color: #404BBF;
 }
 .methody{
     
@@ -290,13 +291,13 @@ letter-spacing: 0.4px;
 margin-bottom: 8px;
 }
 .team{
-    background-color: var(--cloud);
+    background-color: #f4f4fd;
     
 }
 .team__title{
     margin: 0 0 72px;
     text-align: center;
-    columns: var(--navyBlue);
+    columns: #2e2e2e;
 }
 .team__flex{
     
