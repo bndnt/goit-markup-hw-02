@@ -182,19 +182,19 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: #2e2f42;
 }
-.head-nav__link:hover {
+/* .head-nav__link:hover {
     color: #404bbf;
 }
 .head-nav__link:focus {
     color: #404bbf;
-}
+} */
 
-/* .head-nav__li:hover .head-nav__link{
+.head-nav__li:hover .head-nav__link{
     color: #404bbf;
 }
 .head-nav__li:focus .head-nav__link{
     color: #404bbf;
-} */
+}
 
 .head-nav__li:last-child{
 margin-right: 0;
