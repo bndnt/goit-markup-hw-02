@@ -225,6 +225,9 @@ color: #434455;
 .head-info__link:hover{
     color: #404bbf;
 }
+.head-info__link:focus{
+    color: #404bbf;
+}
 .advertisement{
     background-color: #2e2f42;
 }
@@ -249,11 +252,10 @@ color: #434455;
     transition: all .4s;
 }
 .advertisement__btn:hover{
-    background-color: #404BBF;
+ background-color: #404BBF;
 }
-
 .advertisement__btn:focus{
-    background-color: #404BBF;
+ background-color: #404BBF;
 }
 .methody{
     
