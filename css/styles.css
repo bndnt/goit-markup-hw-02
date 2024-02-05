@@ -64,7 +64,6 @@ ul, ul li {
 }
 
 img {
-    vertical-align: top;
 }
 
 img, svg {
@@ -89,8 +88,6 @@ input::-ms-clear {
 }
 
 button, input[type="submit"] {
-    
-    box-shadow: none;
     background-color: transparent;
     background: none;
     cursor: pointer;
