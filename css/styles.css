@@ -188,20 +188,19 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: #2e2f42;
 }
-
-.head-nav__li:hover .head-nav__link{
-    color: #404bbf;
-}
-.head-nav__li:focus .head-nav__link{
-    color: #404bbf;
-}
-
 .head-nav__link:hover {
     color: #404bbf;
 }
 .head-nav__link:focus {
     color: #404bbf;
 }
+
+/* .head-nav__li:hover .head-nav__link{
+    color: #404bbf;
+}
+.head-nav__li:focus .head-nav__link{
+    color: #404bbf;
+} */
 
 .head-nav__li:last-child{
 margin-right: 0;
@@ -226,13 +225,8 @@ color: #434455;
 .head-info__link:hover{
     color: #404bbf;
 }
-.head-info__link{
-    color: #404bbf;
-}
 .advertisement{
-    
     background-color: #2e2f42;
-    
 }
 .advertisement__title{
     color: #fff;
@@ -322,5 +316,5 @@ color: #2e2f42;
     letter-spacing: 0.02em;
 }
 .logo-footer__span{
-    color: #fff;
+    color: #F4F4FD;
 }
