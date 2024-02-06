@@ -182,10 +182,10 @@ color: #2e2f42;
 }
 
 
-.head-nav__li:hover .head-nav__link{
+.head-nav__link:hover {
     color: #404bbf;
 }
-.head-nav__li:focus .head-nav__link{
+.head-nav__link:focus {
     color: #404bbf;
 }
 
@@ -209,13 +209,13 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: #434455;
 }
+.head-info__link:hover {
+    color: #404bbf;
+}
+.head-info__link:focus {
+    color: #404bbf;
+}
 
-.head-info__li:hover .head-info__link{
-    color: #404bbf;
-}
-.head-info__li:focus .head-info__link{
-    color: #404bbf;
-}
 .advertisement{
     background-color: #2e2f42;
 }
