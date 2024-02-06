@@ -177,14 +177,11 @@ font-style: normal;
 font-weight: 500;
 line-height:  150% ;
 letter-spacing: 0.32px;
-transition: all .4s;
 color: #2e2f42;
 }
 
 
-.head-nav__link:hover {
-    color: #404bbf;
-}
+.head-nav__link:hover,
 .head-nav__link:focus {
     color: #404bbf;
 }
@@ -209,9 +206,7 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: #434455;
 }
-.head-info__link:hover {
-    color: #404bbf;
-}
+.head-info__link:hover,
 .head-info__link:focus {
     color: #404bbf;
 }
@@ -239,9 +234,7 @@ color: #434455;
     letter-spacing: 0.64px;
     transition: all .4s;
 }
-.advertisement__btn:hover{
- background-color: #404BBF;
-}
+.advertisement__btn:hover,
 .advertisement__btn:focus{
  background-color: #404BBF;
 }
