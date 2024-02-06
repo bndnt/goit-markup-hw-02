@@ -216,10 +216,10 @@ letter-spacing: 0.32px;
 transition: all .4s;
 color: #434455;
 }
-.head-info__li:hover .header-info__link{
+.head-info__link:hover {
     color: #404bbf;
 }
-.head-info__li:focus .header-info__link{
+.head-info__link:focus {
     color: #404bbf;
 }
 
