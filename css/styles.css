@@ -167,9 +167,9 @@ margin-right: 0;
 .head-info__li:last-child{
     margin-right: 0;
 }
-.head-info{
-    font-style: normal;
-    
+
+.head__info{
+font-style: normal;
 }
 .head-info__link{
 font-family: 'Roboto', sans-serif;
