@@ -162,15 +162,19 @@ margin-right: 0;
 }
 
 .head-info__li{
-margin-right: 40px;
+/* margin-right: 40px; */
 }
 .head-info__li:last-child{
     margin-right: 0;
+}
+.head-info{
+    
 }
 .head-info__link{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 150%; /* 150% */
+ font-style: normal;
 letter-spacing: 0.32px;
 color: #434455;
 }
@@ -227,7 +231,8 @@ margin-bottom: 8px;
 color: #2e2f42;
 }
 .methody__text{
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    line-height:  150%;
 }
 .team{
     background-color: #f4f4fd;
@@ -253,6 +258,7 @@ color: #2e2f42;
 }
 .team__occupation{
     letter-spacing: 0.02em;
+    line-height: 24px; /* 150% */
 }
 .portfolio{
 
@@ -279,6 +285,7 @@ letter-spacing: 0.32px;
 .footer__info{
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    line-height: 24px; /* 150% */
 }
 .logo-footer__span{
     color: #F4F4FD;
