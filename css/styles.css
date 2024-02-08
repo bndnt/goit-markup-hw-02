@@ -5,7 +5,7 @@ body{
     background-color: #fff;;
     font-size: 16px;
     line-height: 1.5em;
-    background-color:#ffffff;
+    color: #434455;
 }
 * {
     margin: 0px;
@@ -168,13 +168,12 @@ margin-right: 0;
     margin-right: 0;
 }
 .head-info{
-    
+    font-style: normal
 }
 .head-info__link{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 150%; /* 150% */
- font-style: normal;
 letter-spacing: 0.32px;
 color: #434455;
 }
@@ -233,6 +232,7 @@ color: #2e2f42;
 .methody__text{
     letter-spacing: 0.02em;
     line-height:  150%;
+    color: #434455;
 }
 .team{
     background-color: #f4f4fd;
@@ -259,6 +259,7 @@ color: #2e2f42;
 .team__occupation{
     letter-spacing: 0.02em;
     line-height: 24px; /* 150% */
+    color: #434455;
 }
 .portfolio{
 
@@ -278,6 +279,7 @@ letter-spacing: 0.4px;
 font-size: 16px;
 line-height: 150%; /* 150% */
 letter-spacing: 0.32px;
+color: #434455;
 }
 .footer{
     background-color: #2e2f42;
