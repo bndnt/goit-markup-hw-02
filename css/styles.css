@@ -1,14 +1,10 @@
-
 body{
     
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background-color: fcfcfc;
-    color: #434455;
+    background-color: #fff;;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5em;
     background-color:#ffffff;
 }
 * {
@@ -25,10 +21,7 @@ body{
 /* Links */
 
 a, a:link, a:visited  {
-    text-decoration: none;
 }
-
-
 
 /* Common */
 
@@ -46,16 +39,6 @@ ul, ul li {
     list-style: none;
 }
 
-img {
-}
-
-img, svg {
-    
-}
-
-address {
-    font-style: normal;
-}
 
 /* Form */
 
@@ -86,23 +69,19 @@ label {
     cursor: pointer;
 }
 
-legend {
-    
-}
 /* font-family: 'Raleway', sans-serif;
 
 font-family: 'Roboto', sans-serif; */
 
 h1{
 font-size: 56px;
-font-style: normal;
+
 font-weight: 700;
 line-height:  107.143%;
 letter-spacing: 1.12px;
 }
 h2{
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height:  111.111%;
     letter-spacing: 0.72px;
@@ -110,26 +89,20 @@ h2{
 }
 h3{
     font-size: 20px;
-font-style: normal;
 font-weight: 500;
 line-height:  120%;
 letter-spacing: 0.4px;
 }
 button{
     font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 150%;
 letter-spacing: 0.64px;
 cursor: pointer;
 }
 a{
-    font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height:  133.333%;
+
 letter-spacing: 0.48px;
-text-decoration-line: underline;
 }
 .container{
     
@@ -156,7 +129,6 @@ text-decoration-line: underline;
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height:  1.17;
     letter-spacing: 0.03em;
@@ -173,7 +145,6 @@ text-decoration-line: underline;
 .head-nav__link{
     font-family: 'Roboto', sans-serif;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height:  150% ;
 letter-spacing: 0.32px;
@@ -199,8 +170,6 @@ margin-right: 40px;
 .head-info__link{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 150%; /* 150% */
 letter-spacing: 0.32px;
 color: #434455;
@@ -216,7 +185,6 @@ color: #434455;
 .advertisement__title{
     color: #fff;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 107.143%;
     letter-spacing: 1.12px;
@@ -227,7 +195,6 @@ color: #434455;
     background-color: #4D5AE5;
     color: #fff;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height:  150%;
     letter-spacing: 0.64px;
@@ -252,9 +219,7 @@ color: #434455;
     margin-right: 0;
 }
 .methody__title{
-    font-family: 'Roboto', sans-serif;
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
 line-height: 120%;
 letter-spacing: 0.4px;
@@ -299,17 +264,12 @@ color: #2e2f42;
 color:  #2E2F42;
 font-family: 'Roboto', sans-serif;
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
 line-height:  120%;
 letter-spacing: 0.4px;
 }
 .portfolio__list-text{
-color: #434455;
-font-family: 'Roboto', sans-serif;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 150%; /* 150% */
 letter-spacing: 0.32px;
 }
